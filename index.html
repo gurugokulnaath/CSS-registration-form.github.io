@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration Form</title>
+  <style>
+   
+    body {
+      font-family: Arial, sans-serif;
+      background-color: green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .form-container {
+      background-color: rgb(0, 255, 255);;
+      border-radius:18px;
+      width: 350px;
+      padding: 30px 20px;
+      box-shadow: 0 4px 15px black;
+    }
+
+    .form-container label {
+      display: block;
+      margin-bottom: 5px;
+      font-size: 0.75em;
+      color: #333;
+    }
+    
+
+
+    .form-container select {
+      width: 100%;
+      padding:10px;
+      margin-bottom: 15px;
+      font-size: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+   
+    .form-container select:focus {
+      border-color: #28a745;
+      outline: none;
+    }
+
+
+    .form-container button {
+      width: 100%;
+      padding:12px;
+      font-size: 1em;
+      background-color: green;
+      color: red;
+      border: none;
+      border-radius: 5px;
+     
+ 
+    }
+    .form-container button:hover {
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Registration Form</h2>
+    <form>
+     <label for="Reg no">Roll Number:</label>
+  <input type="text" id="Reg no" name="Reg no" >
+  <label for="name">Student's Name:</label>
+  <input type="text" id="name" name="name">
+  <label for="D.O.B">Date of birth:</label>
+  <input type="text" id="D.O.B" name="D.O.B" >
+  <p>Choose your gender:</p>
+  <input type="radio" id="male" name="gender" value="Male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="Female">
+  <label for="female">Female</label>
+  <label for="lname">Father's Name:</label>
+  <input type="text" id="fname" name="fname">
+  <label for="fname">Father's Occupation:</label>
+  <input type="text" id="foccupation" name="foccupation" >
+  <label for="lname">Mother's Name:</label>
+  <input type="text" id="mname" name="mname">
+  <label for="fname">Mother's Occupation:</label>
+  <input type="text" id="moccupation" name="moccupation" >
+  <label for="lname">Present Address:</label>
+  <input type="text" id="address" name="address">
+  <label for="fname">Mobile Number:</label>
+  <input type="text" id="mobile no" name="mobile no" >
+ 
+  <label for="fname">Education Qualification:</label>
+  <input type="text" id="educ Qualify" name="educ Qualify" >
+ 
+  <label for="fname">Employment details:</label>
+  <input type="text" id="Employ detail" name="Employ detail" >
+  <label for="cars">Choose your courses:</label>
+  <select id="Courses" name="Courses">
+    <option value="Web design">web design</option>
+    <option value="CSS">CSS</option>
+    <option value="Python">python</option>
+    <option value="Java">java</option>
+  </select>
+  
+<center>
+  <input type="submit" value="Submit">
+</center> 
+    </form>
+  </div>
+
+</body>
+</html>
